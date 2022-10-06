@@ -32,6 +32,7 @@ const Qualification = () => {
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
+            onClick={() => toggleTab(2)}
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
             Experience
@@ -71,7 +72,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Otra cosa</h3>
                 <span className="qualification__subtitle">
-                  Argentina - On my own{" "}
+                  Argentina - On my own
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2021 - Present
@@ -83,7 +84,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Web Development</h3>
                 <span className="qualification__subtitle">
-                  Argentina - On my own{" "}
+                  Argentina - On my own
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2021 - Present
@@ -119,7 +120,6 @@ const Qualification = () => {
                 ? "qualification__content qualification__content-active"
                 : "qualification__content"
             }
-            onClick={() => toggleTab(2)}
           >
             <div className="qualification__data">
               <div>
@@ -140,13 +140,13 @@ const Qualification = () => {
             <div className="qualification__data">
               <div></div>
               <div>
-                <span className="qualification__rounder">asdasd</span>
-                <span className="qualification__line">asdasd</span>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
               <div>
                 <h3 className="qualification__title">Musica</h3>
                 <span className="qualification__subtitle">
-                  Argentina - On my own{" "}
+                  Argentina - On my own
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2021 - Present
@@ -158,7 +158,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Banda</h3>
                 <span className="qualification__subtitle">
-                  Argentina - On my own{" "}
+                  Argentina - On my own
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2021 - Present
