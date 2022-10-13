@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { projectsData } from "./Data";
 import { projectsNav } from "./Data";
 import WorkItems from "./WorkItems";
 
 const Works = () => {
+  const [item, setItem] = useState({ name: "all" });
+  const [projects, setProjects] = useState([]);
+  const [active, setActive] = useState(0);
+
+  useEffect(() => {
+    if (item.name === "all") {
+      setProjects(projectsData);
+    } else {
+      const newProjects = projectsData.filter((project) => {
+        return project.category === item.name;
+      });
+    }
+  });
+
   return (
     <div>
       <div className="work__filters">
