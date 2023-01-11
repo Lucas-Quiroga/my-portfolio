@@ -57,7 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Front-end Developer</h3>
       <p className="home__description">
-        I'm a front-end developer, focused on javascript stack. (MERN)
+        I'm a front-end developer, focused on javascript.
       </p>
 
       <a href="#contact" className="button button--flex">

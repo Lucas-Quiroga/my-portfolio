@@ -16,8 +16,8 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Frontend developer, i create web pages with js and reactjs user
-            interface, i have one years of expreience
+            Frontend developer, I create web applications with js and reactjs, I
+            have one year of experience.
           </p>
 
           <a download="" href={CV} className="button button--flex">
