@@ -3,37 +3,42 @@ import Work2 from "../../assets/work2.jpg";
 import Work3 from "../../assets/work3.jpg";
 import Work4 from "../../assets/work4.jpg";
 import Work5 from "../../assets/work5.jpg";
+import workDashboard from "../../assets/workDashboard.jpg";
+import workEcommerceReact from "../../assets/workEcommerceReact.jpg";
+import workCoinApi from "../../assets/workCoinApi.jpg";
+import workWheatherAppJs from "../../assets/workWheatherAppJs.jpg";
+import workBookCreate from "../../assets/workBookCreate.jpg";
 
 export const projectsData = [
   {
     id: 1,
-    image: Work1,
-    title: "Web design",
-    category: "web",
+    image: workWheatherAppJs,
+    title: "App web",
+    category: "app",
   },
   {
     id: 2,
-    image: Work2,
-    title: "App movil",
+    image: workDashboard,
+    title: "App web",
     category: "app",
   },
   {
     id: 3,
-    image: Work3,
-    title: "Brand design",
-    category: "design",
+    image: workBookCreate,
+    title: "App web",
+    category: "app",
   },
   {
     id: 4,
-    image: Work4,
-    title: "App movil",
+    image: workEcommerceReact,
+    title: "App web",
     category: "app",
   },
   {
     id: 5,
-    image: Work5,
-    title: "Web design",
-    category: "web",
+    image: workCoinApi,
+    title: "App",
+    category: "app",
   },
 ];
 
