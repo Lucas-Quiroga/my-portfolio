@@ -8,42 +8,60 @@ import workEcommerceReact from "../../assets/workEcommerceReact.jpg";
 import workCoinApi from "../../assets/workCoinApi.jpg";
 import workWheatherAppJs from "../../assets/workWheatherAppJs.jpg";
 import workBookCreate from "../../assets/workBookCreate.jpg";
+import workLoginAdmin from "../../assets/workLoginAdmin.jpg";
+import workCrudReact from "../../assets/workCrudReact.jpg";
 
 export const projectsData = [
   {
     id: 1,
-    image: workWheatherAppJs,
-    title: "App web",
-    category: "app",
-    link: "https://weather-app-byjs.netlify.app",
-  },
-  {
-    id: 2,
     image: workDashboard,
-    title: "App web",
+    title: "Dashboard admin",
     category: "app",
     link: "https://dashboard-app-reactjs.netlify.app",
   },
   {
-    id: 3,
-    image: workBookCreate,
-    title: "App web",
+    id: 2,
+    image: workCoinApi,
+    title: "Crypto price API",
     category: "app",
-    link: "https://creation-books.netlify.app/",
+    link: "https://coingeckoapi-reactjs.netlify.app",
   },
   {
-    id: 4,
+    id: 3,
     image: workEcommerceReact,
-    title: "App web",
+    title: "E-commerce",
     category: "app",
     link: "https://e-commerce-quiroga-lucas.netlify.app",
   },
   {
-    id: 5,
-    image: workCoinApi,
-    title: "App",
+    id: 2,
+    image: workBookCreate,
+    title: "Bookstore",
     category: "app",
-    link: "https://coingeckoapi-reactjs.netlify.app",
+    link: "https://creation-books.netlify.app/",
+  },
+
+  ,
+  {
+    id: 5,
+    image: workLoginAdmin,
+    title: "Login admin",
+    category: "app",
+    link: "https://login-admin-app.netlify.app/",
+  },
+  {
+    id: 6,
+    image: workCrudReact,
+    title: "CRUD",
+    category: "app",
+    link: "https://crudbyreact.netlify.app/",
+  },
+  {
+    id: 7,
+    image: workWheatherAppJs,
+    title: "Weather API",
+    category: "app",
+    link: "https://weather-app-byjs.netlify.app",
   },
 ];
 
