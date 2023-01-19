@@ -25,13 +25,25 @@ const Footer = () => {
         </ul>
 
         <div className="footer__social">
-          <a href="rellanar" className="footer__social-link" target="_blank">
+          <a
+            href="https://github.com/Lucas-Quiroga"
+            className="footer__social-link"
+            target="_blank"
+          >
             <i class="bx bxl-github"></i>
           </a>
-          <a href="rellanar" className="footer__social-link" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/lucas-lautaro-quiroga-61aa801a7/"
+            className="footer__social-link"
+            target="_blank"
+          >
             <i class="bx bxl-linkedin"></i>
           </a>
-          <a href="rellanar" className="footer__social-link" target="_blank">
+          <a
+            href="mailto:quiroga.lucasoffice@gmail.com"
+            className="footer__social-link"
+            target="_blank"
+          >
             <i class="bx bx-envelope"></i>
           </a>
         </div>
