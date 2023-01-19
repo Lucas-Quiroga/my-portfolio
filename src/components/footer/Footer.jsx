@@ -18,21 +18,21 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="#testimonials" className="footer__link">
-              Testimonials
+            <a href="#contact" className="footer__link">
+              Contact
             </a>
           </li>
         </ul>
 
         <div className="footer__social">
           <a href="rellanar" className="footer__social-link" target="_blank">
-            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-github"></i>
           </a>
           <a href="rellanar" className="footer__social-link" target="_blank">
-            <i class="bx bxl-instagram"></i>
+            <i class="bx bxl-linkedin"></i>
           </a>
           <a href="rellanar" className="footer__social-link" target="_blank">
-            <i class="bx bxl-twitter"></i>
+            <i class="bx bx-envelope"></i>
           </a>
         </div>
         <span className="footer__copy">

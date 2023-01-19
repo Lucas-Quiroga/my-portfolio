@@ -8,7 +8,7 @@ const Qualification = () => {
     setToggleState(index);
   };
   return (
-    <section className="qualification section">
+    <section className="qualification section" id="qualification">
       <h2 className="section__title">Qualification</h2>
       <span className="section__subtitle">My personal journey</span>
 
@@ -49,12 +49,10 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
-                <span className="qualification__subtitle">
-                  Argentina - On my own{" "}
-                </span>
+                <h3 className="qualification__title">Learning start</h3>
+                <span className="qualification__subtitle">On my own </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> August 2021{" "}
                 </div>
               </div>
               <div>
@@ -70,24 +68,20 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Otra cosa</h3>
-                <span className="qualification__subtitle">
-                  Argentina - On my own
-                </span>
+                <h3 className="qualification__title">Javascript</h3>
+                <span className="qualification__subtitle">Coderhouse</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> February - April 2022
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">
-                  Argentina - On my own
-                </span>
+                <h3 className="qualification__title">ReactJS</h3>
+                <span className="qualification__subtitle">Coderhouse</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> June - July 2022
                 </div>
               </div>
               <div>
@@ -103,12 +97,10 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">
-                  Argentina - On my own{" "}
-                </span>
+                <h3 className="qualification__title">Continuous learning</h3>
+                <span className="qualification__subtitle">On my own </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> August 2022 - Present
                 </div>
               </div>
             </div>
@@ -123,10 +115,10 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
-                <span className="qualification__subtitle">
-                  Argentina - On my own{" "}
-                </span>
+                <h3 className="qualification__title">
+                  User interface experience
+                </h3>
+                <span className="qualification__subtitle"></span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2021 - Present
                 </div>
@@ -144,10 +136,8 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Musica</h3>
-                <span className="qualification__subtitle">
-                  Argentina - On my own
-                </span>
+                <h3 className="qualification__title">Responsive web design</h3>
+                <span className="qualification__subtitle"></span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2021 - Present
                 </div>
@@ -156,12 +146,12 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Banda</h3>
-                <span className="qualification__subtitle">
-                  Argentina - On my own
-                </span>
+                <h3 className="qualification__title">
+                  Object-oriented language
+                </h3>
+                <span className="qualification__subtitle"></span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022 - Present
                 </div>
               </div>
               <div>
@@ -177,12 +167,10 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">
-                  Argentina - On my own{" "}
-                </span>
+                <h3 className="qualification__title">Teamwork</h3>
+                <span className="qualification__subtitle"></span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022 - Present
                 </div>
               </div>
             </div>

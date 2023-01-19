@@ -1,12 +1,12 @@
 import React from "react";
 import "./about.css";
 import profile from "../../assets/profile2.jpg";
-import CV from "../../assets/John-Cv.pdf";
+// import CV from "../../assets/John-Cv.pdf";
 import Info from "./Info";
 
 const About = () => {
   return (
-    <section className="about section">
+    <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>
       <span className="section__subtitle">My introduction</span>
       <div className="about__container container grid">
@@ -17,10 +17,13 @@ const About = () => {
 
           <p className="about__description">
             Frontend developer, I create web applications with js and reactjs, I
-            have one year of experience.
+            have one year of experience. I can easily work in a team thanks to
+            my ability to generate good relationships as well as to motivate the
+            daily performance of the group. Among my skills, I have a high level
+            of commitment and responsibility.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
+          {/* <a download="" href={CV} className="button button--flex">
             Download CV
             <svg
               className="button__icon"
@@ -47,7 +50,7 @@ const About = () => {
                 fill="var(--container-color)"
               ></path>
             </svg>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>
