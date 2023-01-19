@@ -15,30 +15,35 @@ export const projectsData = [
     image: workWheatherAppJs,
     title: "App web",
     category: "app",
+    link: "https://weather-app-byjs.netlify.app",
   },
   {
     id: 2,
     image: workDashboard,
     title: "App web",
     category: "app",
+    link: "https://dashboard-app-reactjs.netlify.app",
   },
   {
     id: 3,
     image: workBookCreate,
     title: "App web",
     category: "app",
+    link: "https://creation-books.netlify.app/",
   },
   {
     id: 4,
     image: workEcommerceReact,
     title: "App web",
     category: "app",
+    link: "https://e-commerce-quiroga-lucas.netlify.app",
   },
   {
     id: 5,
     image: workCoinApi,
     title: "App",
     category: "app",
+    link: "https://coingeckoapi-reactjs.netlify.app",
   },
 ];
 
