@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import profile from "../../assets/profile2.jpg";
-// import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/Quiroga_Lucas-Cv.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -23,7 +23,7 @@ const About = () => {
             of commitment and responsibility.
           </p>
 
-          {/* <a download="" href={CV} className="button button--flex">
+          <a download="" href={CV} className="button button--flex">
             Download CV
             <svg
               className="button__icon"
@@ -50,7 +50,7 @@ const About = () => {
                 fill="var(--container-color)"
               ></path>
             </svg>
-          </a> */}
+          </a>
         </div>
       </div>
     </section>
