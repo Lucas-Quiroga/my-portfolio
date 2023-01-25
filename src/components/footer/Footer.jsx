@@ -33,7 +33,7 @@ const Footer = () => {
             <i class="bx bxl-github"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/lucas-lautaro-quiroga-61aa801a7/"
+            href="https://www.linkedin.com/in/lucas-quiroga-/"
             className="footer__social-link"
             target="_blank"
           >

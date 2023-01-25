@@ -64,7 +64,7 @@ const Contact = () => {
               <span className="contact__card-data">Lucas Lautaro Quiroga</span>
 
               <a
-                href="https://www.linkedin.com/in/lucas-lautaro-quiroga-61aa801a7/"
+                href="https://www.linkedin.com/in/lucas-quiroga-/"
                 className="contact__button"
               >
                 Write me{" "}

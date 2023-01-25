@@ -11,7 +11,7 @@ const Social = () => {
         <i class="uil uil-envelope"></i>
       </a>
       <a
-        href="https://www.linkedin.com/in/lucas-lautaro-quiroga-61aa801a7/?trk=public-profile-join-page"
+        href="https://www.linkedin.com/in/lucas-quiroga-/"
         className="home__social-icon"
         target="_blank"
       >
